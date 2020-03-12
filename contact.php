@@ -1,7 +1,7 @@
 <?php
 $errors = '';
 /* your email here */
-$myemail = 'co,tact@imagine-conseil.fr';
+$myemail = 'contact@imagine-conseil.fr';
 if(empty($_POST['name']) ||
    empty($_POST['email']) ||
    empty($_POST['phone']) ||

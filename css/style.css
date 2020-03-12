@@ -69,6 +69,7 @@ a {text-decoration: none !important;}
 .section-title {
   padding-bottom: 62px;
   position: relative;
+
 }
 
 .section-btn {
@@ -99,8 +100,10 @@ a {text-decoration: none !important;}
 }
 
 .icon {
+	display: block;
   font-size: 32px;
   padding-right: 20px;
+	
 }
 
 #service, #about, #team,
@@ -267,6 +270,7 @@ a {text-decoration: none !important;}
 	align-items: center;
 }
 
+
 /* service section styles
 /* ========================================== */
 #service .media {
@@ -282,6 +286,12 @@ a {text-decoration: none !important;}
   color: #0061D6;
 }
 
+#service h1{
+	text-align: center;
+}
+#service p{
+	text-align: center;
+}
 
 /* team section styles
 /* ========================================== */
@@ -595,11 +605,12 @@ a {text-decoration: none !important;}
 #flow h1{
 	text-align: center
 }
-#flow img {
+#flow img{
 	width: 50%;
   height: 50%;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
+	display: block;
 }
 
 #flow lu{
