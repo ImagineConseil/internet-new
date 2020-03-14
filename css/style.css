@@ -57,8 +57,10 @@ p {
   line-height: 28px;
 }
 
-a {text-decoration: none !important;}
-
+a {
+  text-decoration: none !important;
+  outline: none !important;
+}
 .font-weight-normal {font-weight: 400;}
 
 .font-color-gray {color: #eeeeee !important;}
@@ -67,11 +69,12 @@ a {text-decoration: none !important;}
 /* All Section styles
 ------------------------------------- */
 .section-title {
-  padding-bottom: 62px;
+  padding-bottom: 40px;
   position: relative;
-
 }
-
+#main_title {
+  font: Comfortaa-Regular;
+}
 .section-btn {
   background: transparent;
   border: 3px solid #ffffff;
@@ -100,16 +103,14 @@ a {text-decoration: none !important;}
 }
 
 .icon {
-	display: block;
   font-size: 32px;
   padding-right: 20px;
-	
 }
 
 #service, #about, #team,
 #portfolio, #blog, #faq, #testimonial, #contact {
-   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #about, #portfolio, #faq, #contact {
@@ -189,7 +190,9 @@ a {text-decoration: none !important;}
 }
 
 .navbar-default li {
-  margin: 15px 20px;
+  margin: 20px;
+  margin-top: 12px;
+  margin-bottom: 10px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -215,8 +218,8 @@ a {text-decoration: none !important;}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #0061D6;
-    background-color: transparent;
+  color: #0061D6;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
@@ -270,7 +273,6 @@ a {text-decoration: none !important;}
 	align-items: center;
 }
 
-
 /* service section styles
 /* ========================================== */
 #service .media {
@@ -286,12 +288,6 @@ a {text-decoration: none !important;}
   color: #0061D6;
 }
 
-#service h1{
-	text-align: center;
-}
-#service p{
-	text-align: center;
-}
 
 /* team section styles
 /* ========================================== */
@@ -589,6 +585,7 @@ a {text-decoration: none !important;}
   display: block;
   width: 100%;
   padding: 10px 15px;
+  outline: none;
 }
 
 #faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
@@ -599,30 +596,34 @@ a {text-decoration: none !important;}
 }
 /* flow section styles
 /* ========================================== */
+
 #flow p {
 	text-align: center
 }
 #flow h1{
 	text-align: center
 }
-#flow img{
+#flow img {
 	width: 50%;
   height: 50%;
 	margin-left: auto;
-	margin-right: auto;
-	display: block;
+	margin-right: auto
 }
 
-#flow lu{
-	text-align: center;
+#flow ul{
+  padding-left: 20px;
+	text-align: left;
 	color: #696969;
 }
 #flow h3{
-	text-align: center;
+  width: 300px;
 	font-size: 22px;
   letter-spacing: 0.2px;
   line-height: 33px;
-	text-align: center;
+	text-align: left;
+}
+#flow {
+  padding-bottom: 15px;
 }
 /* testimonial section styles
 /* ========================================== */
@@ -686,12 +687,11 @@ a {text-decoration: none !important;}
   color: #0061D6;
 }
 
-
 /* footer section styles
 /* ========================================== */
 footer {
-  padding-top: 62px;
-  padding-bottom: 62px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   text-align: center;
   position: relative;
 }
@@ -736,9 +736,9 @@ footer {
 @media only screen and (max-width: 980px) {
   #home { height: 58vh;}
 
-  #about .embed-responsive {margin-top: 62px;}
+  #about .embed-responsive {margin-top: 45px;}
 
-  #team .col-md-4:last-child {margin-top: 62px;}
+  #team .col-md-4:last-child {margin-top: 45px;}
 
 }
 @media (max-width: 768px) {
@@ -750,7 +750,7 @@ footer {
     font-size: 34px;
   }
 
-  #team .col-md-4 {margin-bottom: 62px;}
+  #team .col-md-4 {margin-bottom: 45px;}
 
   #team .col-md-4:last-child {margin-top: 0px;}
 }
@@ -788,7 +788,7 @@ footer {
   .section-btn {
     padding: 10px 24px;
   }
-   #blog .blog-about {margin-top: 62px;}
+   #blog .blog-about {margin-top: 45px;}
 }
 
 @media (max-width: 320px) {
