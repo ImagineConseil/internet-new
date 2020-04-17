@@ -68,8 +68,8 @@ label,a,body {
 <body>
 
 <div class="respond">
-	<h1>Thank you!</h1>
-	<p>Thank you for submitting the form. We will contact you soon!</p>
+	<h1>Merci !</h1>
+	<p>Merci de nous avoir contacté, nous revenons vers vous dans les plus brefs délais</p>
 </div>
 
 </body>
